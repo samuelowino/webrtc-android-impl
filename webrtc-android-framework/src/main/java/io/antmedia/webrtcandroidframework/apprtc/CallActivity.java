@@ -393,7 +393,7 @@ public class CallActivity extends Activity implements AppRTCClient.SignalingEven
   }
 
   @TargetApi(19)
-  private static int getSystemUiVisibility() {
+  public static int getSystemUiVisibility() {
     int flags = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION | View.SYSTEM_UI_FLAG_FULLSCREEN;
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
       flags |= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
