@@ -1,5 +1,7 @@
 # WebRCT Android Samples
 
+![diagram](rtc_logo.png)
+
 # What is WebRTC
 
 WebRTC (Web Real-Time Communication) is a free, open-source project that provides web browsers and mobile applications with real-time communication (RTC) via simple application programming interfaces (APIs).
